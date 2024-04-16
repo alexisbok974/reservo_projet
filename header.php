@@ -8,9 +8,10 @@
 <body>
 <ul>
     <li><a href="index.php">Accueil</a></li>
-    <li><a href="reservation.php">réservation</a></li>
-    <li><a href="liste_reservations.php">Voir les réservations</a></li>
+    <li><a href="reservation.php">Réservation</a></li>
+    <li><a href="liste_reservations.php">Administration</a></li>
 
 </ul>
+
 </body>
 </html>

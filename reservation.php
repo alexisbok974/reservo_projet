@@ -46,19 +46,19 @@ include('header.php');
 
                     <div class="divTypeRes">
                         <label for="">Tables :</label>
-                        <input type="number" name="table" id="">
+                        <input type="number" name="table" id="" min="0" pattern="[0-9]*" inputmode="numeric">
                         <label for="">Chaises :</label>
-                        <input type="number" name="chaise" id="">
+                        <input type="number" name="chaise" id="" min="0" pattern="[0-9]*" inputmode="numeric">
                         <label for="">Hauts parleurs :</label>
-                        <input type="number" name="haut-parleurs" id="">
+                        <input type="number" name="haut-parleurs" id="" min="0" pattern="[0-9]*" inputmode="numeric">
                         <label for="">Microphones :</label>
-                        <input type="number" name="microphone" id="">
+                        <input type="number" name="microphone" id="" min="0" pattern="[0-9]*" inputmode="numeric">
                         <label for="">Chapiteau 3x3 :</label>
-                        <input type="number" name="chapiteau3x3" id="">
+                        <input type="number" name="chapiteau3x3" id="" min="0" pattern="[0-9]*" inputmode="numeric">
                         <label for="">Chapiteau 3x4 :</label>
-                        <input type="number" name="chapiteau3x4" id="">
+                        <input type="number" name="chapiteau3x4" id="" min="0" pattern="[0-9]*" inputmode="numeric">
                         <label for="">Chapiteau 3x6 :</label>
-                        <input type="number" name="chapiteau3x6" id="">
+                        <input type="number" name="chapiteau3x6" id="" min="0" pattern="[0-9]*" inputmode="numeric">
                         <label for="">Prestation d'un technicien :</label>
                         <input type="checkbox" name="technicien" id="">
                         <label for="">Mise en place :</label>
@@ -69,7 +69,7 @@ include('header.php');
         </div>
 
         <div class="validation">
-            <input type="submit" value="Valider" name="valider">
+            <input type="submit" value="Valider" name="valider" id="valider">
         </div>
 
             </form>
